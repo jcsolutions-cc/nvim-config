@@ -3,4 +3,4 @@
 require("options")
 require("keymaps")
 require("autocmds")
-require("lazy")
+require("lazy_setup")

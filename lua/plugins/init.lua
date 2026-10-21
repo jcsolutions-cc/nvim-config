@@ -143,7 +143,7 @@ return {
       "hrsh7th/cmp-nvim-lsp",
     },
     config = function()
-      require("jcsolutions.lsp").setup()
+      require("lsp").setup()
     end,
   },
 
@@ -164,7 +164,7 @@ return {
       "rafamadriz/friendly-snippets",
     },
     config = function()
-      require("jcsolutions.completion").setup()
+      require("completion").setup()
     end,
   },
 
